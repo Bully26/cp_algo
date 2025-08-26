@@ -78,3 +78,19 @@ class Solution {
         
     
 };
+   /*
+         the key idea is that when a ssc is found the low value of first visited node will be 
+         transferred back 
+         if low value comming from child matched the entry value 
+         we can say this node is center of scc
+         we will push value from stack till this node
+         
+         need vairable 
+         low link = to propate lowest value back 
+         entry = to compare low link value
+         instack = to know if the element in current stack [path]
+         stack =  stop cur scc to take min value from other scc
+         tmr = to initialize entry 
+        */
+        
+        
